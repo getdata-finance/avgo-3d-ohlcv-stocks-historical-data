@@ -1,10 +1,10 @@
 # AVGO 3d OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_985_rows-blue)](https://getdata.finance/datasets/avgo) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/avgo)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_996_rows-blue)](https://getdata.finance/datasets/avgo) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/avgo)
 
 ### -> [**Download the full AVGO dataset on getdata.finance**](https://getdata.finance/datasets/avgo)
 
-**AVGO 3d OHLCV us stocks historical data** — ultra high-quality 3d OHLCV for **AVGO**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**AVGO 3d OHLCV stocks historical data** — ultra high-quality 3d OHLCV for **Broadcom**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 3d OHLCV** for **AVGO** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **8 timeframes** on [getdata.finance](https://getdata.finance/datasets/avgo) · **1,985** `1m` rows in the full archive
+- **Ultra high-quality 3d OHLCV** for **Broadcom** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/avgo) · **1,996** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `AVGO_3d.csv` (20 rows, `2026-07-06` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/avgo)** — **1,985** `1m` rows (~0.40 MB), **8 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 3D · 1W), `2010-01-04` -> `2026-07-30`.
+> **Sample on GitHub** · `AVGO_3d.csv` (68 rows, `2026-02-09` -> `2026-09-01`, 4.09 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/avgo)** — **1,996** `3d` rows (full `1m`: 111,396), **11 timeframes**, `2010-01-04` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/avgo))** |
 |---|--:|---|
-| Instrument | AVGO · US stocks | AVGO · US stocks |
-| Timeframes | `3d` (sample) | **8** — 1m · 3m · 5m · 15m · 30m · 1H · 3D · 1W |
-| 1m rows | 20 | **1,985** |
-| Size | 0.00 MB | ~0.40 MB |
-| Period | `2026-07-06` -> `2026-07-31` | `2010-01-04` -> `2026-07-30` |
+| Instrument | Broadcom · US stocks | Broadcom · US stocks |
+| Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 3d rows | 68 | **1,996** |
+| Size | 4.09 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/avgo) |
+| Period | `2026-02-09` -> `2026-09-01` | `2010-01-04` -> `2026-09-01` |
 | File | `AVGO_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/avgo) |
 | Coverage report | — | [AVGO coverage](https://getdata.finance/coverage/avgo) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`3d` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/avgo)**, each full asset archive is delivered as a ZIP with **8 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`3d` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/avgo)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `3d` sample · [getdata.finance](https://getdata.finance/datasets/avgo) = all **8** timeframes above for the same instrument.
+GitHub = `3d` sample · [getdata.finance](https://getdata.finance/datasets/avgo) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`AVGO_3d.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-06T00:00:00+00:00 | 414.55 | 437.17 | 414.55 | 428.24 | 30857 |
-| 2026-07-07T00:00:00+00:00 | 428.24 | 428.24 | 416.22 | 424.81 | 62083 |
-| 2026-07-08T00:00:00+00:00 | 424.81 | 449.17 | 424.81 | 442.67 | 65754 |
-| 2026-07-09T00:00:00+00:00 | 442.67 | 461.72 | 442.13 | 455.28 | 51799 |
-| 2026-07-10T00:00:00+00:00 | 455.28 | 456.47 | 449.77 | 454.27 | 22559 |
+| 2026-02-09T00:00:00+00:00 | 332.26 | 352.23 | 330.64 | 342.37 | 59166 |
+| 2026-02-12T00:00:00+00:00 | 342.37 | 346.04 | 324.55 | 325.34 | 63851 |
+| 2026-02-15T00:00:00+00:00 | 325.34 | 335.64 | 316.24 | 332.57 | 18775 |
+| 2026-02-18T00:00:00+00:00 | 332.57 | 339.95 | 327.44 | 332.75 | 61130 |
+| 2026-02-21T00:00:00+00:00 | 332.75 | 338.32 | 325.19 | 330.29 | 16469 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-27T00:00:00+00:00 | 436.45 | 443.48 | 427.61 | 437.34 | 14517 |
-| 2026-07-28T00:00:00+00:00 | 437.34 | 439.88 | 425.54 | 434.64 | 19202 |
-| 2026-07-29T00:00:00+00:00 | 434.64 | 440.26 | 423.71 | 424.29 | 22897 |
-| 2026-07-30T00:00:00+00:00 | 424.29 | 442.63 | 424.29 | 442.26 | 19665 |
-| 2026-07-31T00:00:00+00:00 | 442.26 | 453.89 | 433.91 | 443.18 | 16236 |
+| 2026-08-20T00:00:00+00:00 | 362.29 | 374.93 | 362.15 | 368.4 | 46776 |
+| 2026-08-23T00:00:00+00:00 | 368.4 | 368.4 | 355.83 | 356.71 | 40035 |
+| 2026-08-26T00:00:00+00:00 | 356.39 | 376.38 | 350.62 | 368.54 | 38610 |
+| 2026-08-29T00:00:00+00:00 | 368.54 | 372.33 | 366.22 | 370.41 | 20216 |
+| 2026-09-01T00:00:00+00:00 | 370.41 | 371.2 | 361.94 | 369.49 | 21155 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`AVGO_3d.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('AVGO_3d.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AVGO_3d.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('AVGO_3d.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AVGO_3d.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('AVGO_3d.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('AVGO_3d.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='3d')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **AVGO** archive on **[getdata.finance](https://getdata.finance/datasets/avgo)** includes **8 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 3D · 1W) — **1,985** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **AVGO** archive on **[getdata.finance](https://getdata.finance/datasets/avgo)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,996** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AVGO dataset on getdata.finance](https://getdata.finance/datasets/avgo)**
 
 ---
-*GetData · AVGO 3d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/avgo) · 2026-08-05 UTC*
+*GetData · AVGO 3d OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/avgo)*
